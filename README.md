@@ -37,8 +37,12 @@ flowchart TD
 │   │   └── SKILL.md                    # Скилл анализа требований и проверки Quality Gate
 │   ├── task_design/
 │   │   └── SKILL.md                    # Скилл декомпозиции и проектирования Jira-задач
-│   └── test_design/
-│       └── SKILL.md                    # Скилл проектирования тестовой модели для TMS
+│   ├── test_design/
+│   │   └── SKILL.md                    # Скилл проектирования тестовой модели для TMS
+│   ├── test-data-factory/
+│   │   └── SKILL.md                    # Скилл генерации тестовых данных (ИНН, СНИЛС, карты Луна, XSS, даты)
+│   └── api-payload-generator/
+│       └── SKILL.md                    # Скилл генерации cURL, фаззинга JSON и Postman коллекций
 ├── templates/                          # Шаблоны артефактов для стандартизации вывода
 │   ├── requirement_review_template.md  # Шаблон отчета ревью требований
 │   ├── jira_tasks_template.md          # Шаблон оформления задач Jira
