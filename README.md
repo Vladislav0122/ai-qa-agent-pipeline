@@ -38,7 +38,8 @@ flowchart TD
 ├── README.md                           # Общее описание проекта, архитектура и руководство
 ├── agent_instruction.md                # Главная системная инструкция агента (Scope, Tools, Failure Behaviour)
 ├── scripts/                            # Вспомогательные скрипты автоматизации
-│   └── jira_fetcher.py                 # Скрипт интеграции с Jira Server REST API
+│   ├── jira_fetcher.py                 # Скрипт интеграции с Jira Server REST API
+│   └── confluence_fetcher.py           # Скрипт загрузки требований из Confluence (по Cookie)
 ├── skills/                             # Каталог специализированных навыков (Skills)
 │   ├── requirement_review/
 │   │   └── SKILL.md                    # Скилл анализа требований, Quality Gate 1 и Clarification Loop
